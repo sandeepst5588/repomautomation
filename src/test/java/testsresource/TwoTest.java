@@ -13,6 +13,9 @@ public class TwoTest extends Base {
 
 	@Test
 	public void test2() throws IOException {
+		
+		System.out.println("changed by third person");
+		
 		System.out.println("test2");
 		driver = intializeDriver();
 
